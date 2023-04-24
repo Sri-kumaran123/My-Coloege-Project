@@ -1,0 +1,64 @@
+.App{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  position: relative;
+  background-color:#fff ;
+  
+  
+}
+
+.App-header{
+  position: fixed;
+  top:0;
+  
+  /* for to moving navbar*/
+
+  width: inherit;
+  height: 10%;
+  box-shadow: -10px 3px 10px black;
+
+  z-index: 2;
+}
+.Body{
+  height: 90%;
+  width: 100%;
+  
+  /* for seting position*/
+ 
+ 
+  
+
+
+  display: flex;
+  flex-direction: row;
+ 
+
+  
+
+ 
+}
+/*devide left and right*/
+.Body .r{
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  top: 10%;
+  
+  
+ 
+  /*background-color: aqua;*/
+
+}
+.Body .l{
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  
+  
+ 
+ /* background-color: aquamarine;*/
+
+}
