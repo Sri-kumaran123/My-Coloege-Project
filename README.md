@@ -1,2 +1,2 @@
-# My-Coloege-Project
+# My-College-Project
 online shop management system
